@@ -1,2 +1,2 @@
 #!/bin/bash
-cp test1 ec2-user@100.103.139.206/
+ssh -i RHEL_Apache_key.pem ec2-user@100.103.138.62
