@@ -1,4 +1,4 @@
 #!/bin/bash
-ls
-pwd 
-ifconfig
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
